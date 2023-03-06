@@ -1,0 +1,40 @@
+/* header{
+    background: darkblue;
+  } */
+  ul li{
+      list-style-type: none; /* POUR Enlever les points*/
+  }
+  nav ul{
+      display: inline-flex; /* Pour afficher sur la même ligne*/
+  }
+  nav{
+      text-align: center; /* Pour centrer le contenu*/
+  }
+  ul li a{
+      text-decoration: none;/* Pour faire disparaitre le soulignement*/
+      margin-right:10px; /* La marge droite*/
+      padding: 12px; /* La marge intérieure*/
+      color: orangered; /* La couleur de l"ecriture*/
+      font-family: sans-serif; /* La police de l"ecriture*/
+      font-size: 20px; /* La taille de la police*/
+      border-radius: 5px; /* Pour arrondir les bordures*/
+  }
+  ul li a:hover /* Pour mettre le survol cad quand on met le curseur la couleur du backgrnd et de la police changent*/
+  {
+      background: orangered; 
+      color: black;
+      text-transform: uppercase;/* Mettre la police en majuscule*/
+      font-weight: bold; /* Mettre la police en gras*/
+      font-style: italic; /* Mettre la police en italic*/
+  }
+  
+  p{
+      text-align: center;
+      color: black;
+      font-size: 15px;
+      text-shadow: 0 2px orangered;/*L'ombre du texte: la première valeur (pour la distance) et la deuxième (pour la taile)*/
+      font-style: italic;
+      font-family: sans-serif;
+      margin-top: 300px;
+  }
+  
